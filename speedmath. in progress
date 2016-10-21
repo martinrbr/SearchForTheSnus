@@ -1,0 +1,131 @@
+// ConsoleApplication2.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+	string svar;
+	string ok;
+	int matte;
+	cout << "Hello, are you ready for som math?"<<endl;
+	cout << "yes or no?"<<endl;
+	cin >> svar;
+	if (svar == "yes"){
+		cout << "okey. lets go\n\n";
+	}
+	else if (svar == "no"){
+		cout << "well it starts right now\n\n";
+	}
+	cout << "answer right on at least 8 of the 10 questons and you win.\n";
+	cout << "write okey to start\n";
+	cin >> ok;
+	if (ok == "okey"){
+		cout << "good\n\n";
+	}
+	else {
+		cout << "wrong\n";
+		//första frågan.
+	}
+	cout << "what is 235 + 122?\n";
+	 cin>> matte;
+	if (matte == 357){
+		cout << "right answer\n";
+	}
+	else{
+		cout << "wrong\n";
+	}
+	
+	// fråga 2
+	
+	cout << "what is 7 * 12?\n";
+	cin >> matte;
+	if (matte == 84){
+		cout << "right answer";
+	}
+	else {
+		cout << "wrong\n";
+	}
+		
+
+	//fråga 3
+	cout << "what is 378 - 35?\n";
+	cin >> matte;
+	if (matte == 343){
+		cout << "right answer\n";
+	}
+	else{
+		cout << "wrong\n";
+	}
+	//fråga 4
+	cout << "what is 52 / 4?\n";
+	cin >> matte;
+	if (matte == 13){
+		cout << "right answer\n";
+	}
+	else {
+		cout << "wrong\n";
+	}
+	//fråga 5
+	cout << "what is 534,5 + 122,6?\n";
+	cin >> matte;
+	if (matte == 657, 1){
+		cout << "right answer\n";
+	}
+	else{
+		cout << "wrong\n";
+	}
+	//fråga 6
+	cout << "what is 13 * 12?\n";
+	cin >> matte;
+	if (matte == 156){
+		cout << "right answer\n";
+	}
+	else{
+		cout << "wrong\n";
+	}
+	//fråga 7
+	cout << "what is 967,8 - 452,7?\n";
+	cin >> matte;
+	if (matte == 515, 1){
+		cout << "right answer\n";
+	}
+	else{
+		cout << "wrong\n";
+	}
+	//fråga 8
+	cout << "what is 72 / 6?\n";
+	cin >> matte;
+	if (matte == 12){
+		cout << "right answer";
+	}
+	else{
+		cout << "wrong\n";
+	}
+	//fråga 9
+	cout << "what is 534 - 142?\n";
+	cin >> matte;
+	if (matte == 392){
+		cout<<"right answer\n";
+	}
+	else{
+		cout << "wrong\n";
+	}
+	//fråga 10
+	cout << "what is 15 * 13?\n";
+	cin >> matte;
+	if (matte == 195){
+		cout << "right answer\n";
+	}
+	else{
+		cout << "wrong\n";
+	}
+
+
+
+
+	system("pause");
+	return 0;
+}
